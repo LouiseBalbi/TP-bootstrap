@@ -1,0 +1,53 @@
+#logo img{
+   height: 75px;
+    position: absolute;
+    z-index: 9999;
+    right: 0;
+}
+
+
+h1, h2, footer{
+    text-align: center;
+}
+
+.titreCaroussel{
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    color: white;
+    padding-top: 15px;
+}
+
+
+.container .row div{
+    padding: 2%;
+    text-align: center;
+}
+
+#avantages li{
+    list-style-type: none;
+}
+
+#avantages img{
+    max-width: 150px;
+}
+
+section, footer{
+    padding: 2%;
+}
+
+footer{
+    background-color: rgb(179, 178, 178);
+}
+
+@media screen and (max-width: 640px){
+
+    #logo{
+        text-align: center;
+    }
+
+    #logo img{
+         height: 75px;
+         position: relative;
+     }
+}
